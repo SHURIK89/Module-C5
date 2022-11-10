@@ -1,0 +1,34 @@
+.input_wrap{
+    display: block;
+    max-width: 500px;
+}
+
+.j-result{
+    max-width: 300px;
+    max-Height: 300px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%; 
+    max-height: 600px;
+
+  }
+
+  .btn {
+    cursor: pointer;
+    margin: 5px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #c0c0c0;
+    line-height: 14px;
+    box-shadow: none;
+    transition: 0.2s;
+    font-style: italic;
+  }
+  
+  .btn:hover {
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 255,.6);
+    transform: scale(1.2);
+  }
